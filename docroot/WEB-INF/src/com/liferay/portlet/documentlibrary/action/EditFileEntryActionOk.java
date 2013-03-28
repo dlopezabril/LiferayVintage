@@ -26,9 +26,7 @@ import javax.portlet.RenderResponse;
 import javax.portlet.ResourceRequest;
 import javax.portlet.ResourceResponse;
 
-/**
- * @author Sergio González
- */
+
 public class EditFileEntryActionOk extends BaseStrutsPortletAction {
 
 	public void processAction(StrutsPortletAction originalStrutsPortletAction, PortletConfig portletConfig,
