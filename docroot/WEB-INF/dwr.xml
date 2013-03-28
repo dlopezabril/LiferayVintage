@@ -1,0 +1,10 @@
+<!DOCTYPE dwr PUBLIC  
+    "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN"  
+    "http://getahead.org/dwr/dwr30.dtd">
+<dwr>
+	<allow>
+		<create creator="new" javascript="dwrService">
+			<param name="class" value="es.insa.pazgs.mus.systemconfig.service.DWRService" />
+		</create>
+	</allow>
+</dwr>

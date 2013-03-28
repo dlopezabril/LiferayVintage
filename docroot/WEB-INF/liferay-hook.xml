@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hook PUBLIC "-//Liferay//DTD Hook 6.0.0//EN" "http://www.liferay.com/dtd/liferay-hook_6_0_0.dtd">
+
+<hook>
+
+	<portal-properties>portal.properties</portal-properties>
+	<language-properties>content/Language.properties</language-properties>
+	<language-properties>content/Language_es_ES.properties</language-properties>
+   	<language-properties>content/Language_en_EN.properties</language-properties>
+	<custom-jsp-dir>/WEB-INF</custom-jsp-dir>
+	
+	<struts-action>
+		<struts-action-path>/document_library/edit_file_entry</struts-action-path>
+		<struts-action-impl>com.liferay.portlet.documentlibrary.action.EditFileEntryActionOk</struts-action-impl>
+	</struts-action>
+
+	<!-- 
+	<service>
+	    <service-type>
+	        com.liferay.portlet.calendar.service.CalEventLocalService
+	    </service-type>
+	    <service-impl>
+	        com.liferay.portlet.calendar.service.impl.MyCalendarLocalServiceImpl
+	    </service-impl>
+	</service>
+	-->
+	
+</hook>
